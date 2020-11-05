@@ -339,6 +339,7 @@
 .footer__column_content_copyright {
   flex-basis: 711px;
   position: relative;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -347,11 +348,9 @@
 }
 
 .footer__author{
-  position: absolute;
-  left: 0;
-  bottom: 18px;
+  align-self: flex-start;
   margin-top: 18px;
-  margin-bottom: 0;
+  margin-bottom: 18px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
