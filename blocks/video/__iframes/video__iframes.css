@@ -1,0 +1,7 @@
+.video__iframes {
+  margin: 50px auto auto auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
