@@ -1,5 +1,15 @@
 .resources__logo {
   width: 270px;
   height: 38px;
-  align-self: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resources__logo:hover {
+  opacity: 0.8;
+  transition: ease-in-out;
 }
