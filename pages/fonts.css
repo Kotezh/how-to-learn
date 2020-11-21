@@ -1,0 +1,11 @@
+@font-face {
+  src: url('../fonts/Capture_smallz.ttf') format('truetype');
+  font-family: 'Capture smallz';
+  font-weight: normal;
+}
+
+@font-face {
+  src: url('../fonts/mr_Arenq.ttf') format('truetype');
+  font-family: 'mr Arenq';
+  font-weight: normal;
+}

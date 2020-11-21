@@ -67,6 +67,25 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__answer/form__answer.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__buttons/form__buttons.css);
+@import url(../blocks/form/__feedback/form__feedback.css);
+@import url(../blocks/form/__info/form__info.css);
+@import url(../blocks/form/__input-contacts/form__input-contacts.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__item/_el/form__item_el_checkbox.css);
+@import url(../blocks/form/__item/_el/form__item_el_message.css);
+@import url(../blocks/form/__item/_el/form__item_el_radio.css);
+@import url(../blocks/form/__item/_el/form__item_el_topic.css);
+@import url(../blocks/form/__label-text/form__label-text.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__main-container/form__main-container.css);
+@import url(../blocks/form/__pseudo-item/form__pseudo-item.css);
+@import url(../blocks/form/__subtitle/form__subtitle.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__note/form__note.css);
 
 
 

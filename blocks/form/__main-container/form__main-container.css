@@ -1,0 +1,9 @@
+.form__main-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border: none;
+  background-color: #f2f2f2;
+}

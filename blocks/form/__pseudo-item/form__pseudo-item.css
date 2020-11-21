@@ -1,0 +1,39 @@
+.form__item_el_radio:checked + .form__pseudo-item {
+    background-image: url(./plane.svg);
+  }
+
+  .form__item_el_radio:disabled + .form__pseudo-item {
+    border: 1px solid grey;
+  }
+
+  .form__item_el_radio:disabled:checked + .form__pseudo-item {
+    background-image: url(./plane_grey.svg);
+  }
+
+  .form__item_el_radio:focus + .form__pseudo-item {
+    box-shadow: 0 0 5px #fff6c5;
+  }
+
+  .form__pseudo-item {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    border: 1px solid black;
+  }
+
+  .form__item_el_checkbox:checked + .form__pseudo-item {
+    background-image: url(./plane.svg);
+  }
+
+  .form__item_el_checkbox:disabled + .form__pseudo-item {
+    border: 1px solid grey;
+  }
+
+  .form__item_el_checkbox:disabled:checked + .form__pseudo-item {
+    background-image: url(./plane_grey.svg);
+  }
+
+  .form__item_el_checkbox:focus + .form__pseudo-item {
+    box-shadow: 0 0 5px #fff6c5;
+  }
