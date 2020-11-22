@@ -1,8 +1,41 @@
 .form__input-contacts {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   border: none;
   padding: 0;
   margin: 0 20px 0;
+}
+
+.form__input-contacts > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.form__input-contacts > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.form__input-contacts > *:nth-child(3) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+
+.form__input-contacts > *:nth-child(4) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+
+.form__input-contacts > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.form__input-contacts > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
 }

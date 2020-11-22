@@ -11,6 +11,7 @@
   }
 
   .form__item_el_radio:focus + .form__pseudo-item {
+    -webkit-box-shadow: 0 0 5px #fff6c5;
     box-shadow: 0 0 5px #fff6c5;
   }
 
@@ -35,5 +36,6 @@
   }
 
   .form__item_el_checkbox:focus + .form__pseudo-item {
+    -webkit-box-shadow: 0 0 5px #fff6c5;
     box-shadow: 0 0 5px #fff6c5;
   }

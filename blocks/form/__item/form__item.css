@@ -1,10 +1,44 @@
 .form_item {
   padding: 0;
   margin: 0 20px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   border: 1px solid #d1e618
 }
 
 .form__item:focus {
   outline-color: #5f0979;
+}
+
+.form__item:hover {
+  border-color: #5f0979;
+}
+
+.form__item::placeholder {
+  font-size: 12px;
+  font-family: 'Alegreya Sans', sans-serif;
+  line-height: 20px;
+  color: #bcbcc4;
+}
+
+.form__item::-webkit-input-placeholder {
+  font-size: 12px;
+  font-family: 'Alegreya Sans', sans-serif;
+  line-height: 20px;
+  color: #bcbcc4;
+}
+
+.form__item::-moz-placeholder {
+  font-size: 12px;
+  font-family: 'Alegreya Sans', sans-serif;
+  line-height: 20px;
+  color: #bcbcc4;
+}
+
+.form__item::-ms-input-placeholder {
+  font-size: 12px;
+  font-family: 'Alegreya Sans', sans-serif;
+  line-height: 20px;
+  color: #bcbcc4;
 }

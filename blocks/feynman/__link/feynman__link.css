@@ -8,6 +8,8 @@
   z-index: 1;
   color: #2f80ed;
   text-decoration: none;
+  -webkit-transition: opacity .5s ease;
+  -o-transition: opacity .5s ease;
   opacity: 1;
   transition: opacity .5s ease;
 }

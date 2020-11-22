@@ -8,6 +8,8 @@
   border: 2px solid #5f0979;
   border-radius: 5px;
   min-width: 100px;
+  -webkit-transition: background-color 200ms ease, color 200ms ease;
+  -o-transition: background-color 200ms ease, color 200ms ease;
   transition: background-color 200ms ease, color 200ms ease;
 }
 
